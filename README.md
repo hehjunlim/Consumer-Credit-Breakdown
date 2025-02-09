@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Consumer-Credit-Breakdown
+This repository focuses on analyzing the link between e-commerce activity and credit card debt in the United States. The convenience of online shopping has led to higher spending and potential overconsumption. Through this project, we aim to quantify and visualize these trends, providing data-driven insights into the relationship between e-commerce adoption and rising credit card balances.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Topic:** Rising Reliance on E-commerce and Its Impact on U.S. Credit Card Spending
 
-## Available Scripts
+**Essential Question:** How has the rise of online shopping platforms impact credit card debt among American consumers?
 
-In the project directory, you can run:
+**Data Sources:**
 
-### `npm start`
+1. [E-Commerce Retail Sales (1999 - 2024)](https://fred.stlouisfed.org/series/ECOMSA)
+2. [E-Commerce Retail Sales as a Percent of Total Sales (1999 - 2024)](https://fred.stlouisfed.org/series/ECOMPCTSA)
+3. [Consumer Loans: Credit Cards and Other Revolving Plans, All Commercial Banks (2000 - 2025)](https://fred.stlouisfed.org/series/CCLACBW027SBOG)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Potential Visualizations:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**1. Time-Series Trend**
+Historical e-commerce sales alongside aggregate credit card debt over multiple years to see how they move together.
 
-### `npm test`
+**2. Correlation Matrix**
+Compare variables such as percentage of e-commerce sales from total sales, and credit card balances to identify statistically significant relationships.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**4. Category Spending Distribution**
+Pie or donut charts illustrating the share of credit card spending across various e-commerce product categories (fashion, tech, beauty, etc.).
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**5. Monthly/Quarterly Growth Rates**
+Side-by-side bar charts or dual-axis line charts to compare the monthly/quarterly growth rates of credit card bills and e-commerce adoption rates.
