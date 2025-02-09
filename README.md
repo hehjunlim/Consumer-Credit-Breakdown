@@ -7,9 +7,9 @@ This repository focuses on analyzing the link between e-commerce activity and cr
 
 **Data Sources:**
 
-1. E-Commerce Retail Sales (1999 - 2024)
-2. E-Commerce Retail Sales as a Percent of Total Sales (1999 - 2024)
-3. Consumer Loans: Credit Cards and Other Revolving Plans, All Commercial Banks (2000 - 2025)
+1. [E-Commerce Retail Sales (1999 - 2024)](https://fred.stlouisfed.org/series/ECOMSA)
+2. [E-Commerce Retail Sales as a Percent of Total Sales (1999 - 2024)}(https://fred.stlouisfed.org/series/ECOMPCTSA)
+3. [Consumer Loans: Credit Cards and Other Revolving Plans, All Commercial Banks (2000 - 2025)](https://fred.stlouisfed.org/series/CCLACBW027SBOG)
 
 **Potential Visualizations:**
 
