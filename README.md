@@ -17,7 +17,7 @@ This repository focuses on analyzing the link between e-commerce activity and cr
 Historical e-commerce sales alongside aggregate credit card debt over multiple years to see how they move together.
 
 **2. Correlation Matrix**
-Compare variables such as percentage of e-commerce sales from total sales, and credit card balances to identify statistically significant relationships
+Compare variables such as percentage of e-commerce sales from total sales, and credit card balances to identify statistically significant relationships.
 
 **4. Category Spending Distribution**
 Pie or donut charts illustrating the share of credit card spending across various e-commerce product categories (fashion, tech, beauty, etc.).
