@@ -24,3 +24,6 @@ Pie or donut charts illustrating the share of credit card spending across variou
 
 **5. Monthly/Quarterly Growth Rates**
 Side-by-side bar charts or dual-axis line charts to compare the monthly/quarterly growth rates of credit card bills and e-commerce adoption rates.
+
+To run: 
+npm run start
